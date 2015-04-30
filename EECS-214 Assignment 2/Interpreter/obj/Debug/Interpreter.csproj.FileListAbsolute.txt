@@ -1,0 +1,9 @@
+C:\Users\Lee\Desktop\EECS214\HW2\EECS-214 Assignment 2\Interpreter\bin\Debug\Interpreter.exe.config
+C:\Users\Lee\Desktop\EECS214\HW2\EECS-214 Assignment 2\Interpreter\bin\Debug\Interpreter.exe
+C:\Users\Lee\Desktop\EECS214\HW2\EECS-214 Assignment 2\Interpreter\bin\Debug\Interpreter.pdb
+C:\Users\Lee\Desktop\EECS214\HW2\EECS-214 Assignment 2\Interpreter\obj\Debug\Interpreter.csprojResolveAssemblyReference.cache
+C:\Users\Lee\Desktop\EECS214\HW2\EECS-214 Assignment 2\Interpreter\obj\Debug\Interpreter.Form1.resources
+C:\Users\Lee\Desktop\EECS214\HW2\EECS-214 Assignment 2\Interpreter\obj\Debug\Interpreter.Properties.Resources.resources
+C:\Users\Lee\Desktop\EECS214\HW2\EECS-214 Assignment 2\Interpreter\obj\Debug\Interpreter.csproj.GenerateResource.Cache
+C:\Users\Lee\Desktop\EECS214\HW2\EECS-214 Assignment 2\Interpreter\obj\Debug\Interpreter.exe
+C:\Users\Lee\Desktop\EECS214\HW2\EECS-214 Assignment 2\Interpreter\obj\Debug\Interpreter.pdb

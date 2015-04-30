@@ -1,0 +1,7 @@
+C:\Users\Lee\Desktop\EECS214\HW2\EECS-214 Assignment 2\Tests\bin\Debug\Tests.dll
+C:\Users\Lee\Desktop\EECS214\HW2\EECS-214 Assignment 2\Tests\bin\Debug\Tests.pdb
+C:\Users\Lee\Desktop\EECS214\HW2\EECS-214 Assignment 2\Tests\bin\Debug\Interpreter.exe
+C:\Users\Lee\Desktop\EECS214\HW2\EECS-214 Assignment 2\Tests\bin\Debug\Interpreter.pdb
+C:\Users\Lee\Desktop\EECS214\HW2\EECS-214 Assignment 2\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+C:\Users\Lee\Desktop\EECS214\HW2\EECS-214 Assignment 2\Tests\obj\Debug\Tests.dll
+C:\Users\Lee\Desktop\EECS214\HW2\EECS-214 Assignment 2\Tests\obj\Debug\Tests.pdb
