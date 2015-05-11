@@ -21,16 +21,20 @@ namespace Assignment_1
     /// </summary>
     public class LinkedListQueue : Queue
     {
-        
-        
-        LLQueue prevLLQ = null;
+
+
+        LLQueue firstLLQ;
+        LLQueue lastLLQ;
         /// <summary>
         /// Add object to end of queue
         /// </summary>
         /// <param name="o">object to add</param>
         public override void Enqueue(object o)
         {
-            LLQueue headLLQ = new LLQueue(o, prevLLQ);
+            if (IsEmpty)
+            {
+                LLQueue tailLLQ = new LLQueue(o, firstLLQ);
+            }
         }
 
         /// <summary>
@@ -68,7 +72,6 @@ namespace Assignment_1
                 throw new NotImplementedException();
             }
         }
-    
-public  object value { get; set; }
-private  LinkedListQueue.LLQueue next { get; set; }}
+    }
 }
+

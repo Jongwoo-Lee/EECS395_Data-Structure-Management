@@ -6,3 +6,4 @@ C:\Users\ian\Desktop\Classes\311\EECS 311 Assignment 1 Solution\QueueTests\obj\D
 C:\Users\ian\Desktop\Classes\311\EECS 311 Assignment 1 Solution\QueueTests\obj\Debug\QueueTests.dll
 C:\Users\ian\Desktop\Classes\311\EECS 311 Assignment 1 Solution\QueueTests\obj\Debug\QueueTests.pdb
 C:\Users\Lee\Desktop\EECS 214 Assignment 1\QueueTests\obj\Debug\QueueTests.csprojResolveAssemblyReference.cache
+C:\Users\Jongwoo\Documents\GitHub\EECS395\EECS 214 Assignment 1\QueueTests\obj\Debug\QueueTests.csprojResolveAssemblyReference.cache

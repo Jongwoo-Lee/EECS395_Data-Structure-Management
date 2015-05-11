@@ -7,3 +7,12 @@ C:\Users\Lee\Desktop\EECS214\HW2\EECS-214 Assignment 2\Interpreter\obj\Debug\Int
 C:\Users\Lee\Desktop\EECS214\HW2\EECS-214 Assignment 2\Interpreter\obj\Debug\Interpreter.csproj.GenerateResource.Cache
 C:\Users\Lee\Desktop\EECS214\HW2\EECS-214 Assignment 2\Interpreter\obj\Debug\Interpreter.exe
 C:\Users\Lee\Desktop\EECS214\HW2\EECS-214 Assignment 2\Interpreter\obj\Debug\Interpreter.pdb
+C:\Users\Jongwoo\Documents\GitHub\EECS395\EECS-214 Assignment 2\Interpreter\bin\Debug\Interpreter.exe.config
+C:\Users\Jongwoo\Documents\GitHub\EECS395\EECS-214 Assignment 2\Interpreter\obj\Debug\Interpreter.exe
+C:\Users\Jongwoo\Documents\GitHub\EECS395\EECS-214 Assignment 2\Interpreter\obj\Debug\Interpreter.pdb
+C:\Users\Jongwoo\Documents\GitHub\EECS395\EECS-214 Assignment 2\Interpreter\obj\Debug\Interpreter.csprojResolveAssemblyReference.cache
+C:\Users\Jongwoo\Documents\GitHub\EECS395\EECS-214 Assignment 2\Interpreter\obj\Debug\Interpreter.Form1.resources
+C:\Users\Jongwoo\Documents\GitHub\EECS395\EECS-214 Assignment 2\Interpreter\obj\Debug\Interpreter.Properties.Resources.resources
+C:\Users\Jongwoo\Documents\GitHub\EECS395\EECS-214 Assignment 2\Interpreter\obj\Debug\Interpreter.csproj.GenerateResource.Cache
+C:\Users\Jongwoo\Documents\GitHub\EECS395\EECS-214 Assignment 2\Interpreter\bin\Debug\Interpreter.exe
+C:\Users\Jongwoo\Documents\GitHub\EECS395\EECS-214 Assignment 2\Interpreter\bin\Debug\Interpreter.pdb

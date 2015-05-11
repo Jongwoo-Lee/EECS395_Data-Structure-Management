@@ -4,3 +4,6 @@ C:\Users\Lee\Desktop\EECS 214 Assignment 1\Assignment 1\bin\Debug\Assignment 1.p
 C:\Users\Lee\Desktop\EECS 214 Assignment 1\Assignment 1\obj\Debug\Assignment 1.csprojResolveAssemblyReference.cache
 C:\Users\Lee\Desktop\EECS 214 Assignment 1\Assignment 1\obj\Debug\Assignment 1.exe
 C:\Users\Lee\Desktop\EECS 214 Assignment 1\Assignment 1\obj\Debug\Assignment 1.pdb
+C:\Users\Jongwoo\Documents\GitHub\EECS395\EECS 214 Assignment 1\Assignment 1\obj\Debug\Assignment 1.csprojResolveAssemblyReference.cache
+C:\Users\Jongwoo\Documents\GitHub\EECS395\EECS 214 Assignment 1\Assignment 1\obj\Debug\Assignment 1.exe
+C:\Users\Jongwoo\Documents\GitHub\EECS395\EECS 214 Assignment 1\Assignment 1\obj\Debug\Assignment 1.pdb

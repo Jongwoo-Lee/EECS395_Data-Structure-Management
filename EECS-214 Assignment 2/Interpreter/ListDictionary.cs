@@ -7,18 +7,35 @@ namespace Interpreter
     {
         public string name { get; set; }
         public object val { get; set; }
+        public ListDictionary next { get; set; }
+
+        ListDictionary first;
+        ListDictionary last;
+        int ld_size = 0;
         public ListDictionary()
         {
-            ListDictionary child;
-            this.name  = null;
-            this.val = null;
+            throw new NotImplementedException();
         }
 
         public override void Store(string key, object value)
         {
-            this.name = key;
-            this.val = value;
-
+            ListDictionary newNode = new ListDictionary();
+            if (ld_size == 0)
+            {
+                first.name = key;
+                first.val = value;
+                first.next = newNode;
+                first = newNode;
+            }
+            else
+            {
+                last = newNode;
+                last.name = key;
+                last.val = value;
+                last.next = newNode;
+                first = newNode;
+            }
+            ld_size++;
         }
 
         public override object Lookup(string key)
@@ -30,7 +47,7 @@ namespace Interpreter
         {
             get
             {
-                throw new NotImplementedException();
+                return ld_size;
             }
         }
 
@@ -40,9 +57,11 @@ namespace Interpreter
             //for (var cell = start; cell != null; cell = cell.next)
             //     yield return new KeyValuePair<string, object>(cell.Key, cell.Value);
             // And remove this:
-            throw new NotImplementedException();
+            ListDictionary c = last;
+            for (var cell = last; cell != null; cell = cell.next )
+            {
+                yield return new KeyValuePair<string, object>(cell.name, cell.val);
+            }
         }
-
-        
     }
 }
