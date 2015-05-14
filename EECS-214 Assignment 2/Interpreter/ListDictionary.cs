@@ -7,80 +7,61 @@ namespace Interpreter
     {
         public string name { get; set; }
         public object val { get; set; }
-        public ListDictionary child { get; set; }
+        public ListDictionary next { get; set; }
 
-        int ldsize;
-        private ListDictionary newkey;
-        private ListDictionary first;
-
+        ListDictionary first;
+        ListDictionary last;
+        int ld_size = 0;
         public ListDictionary()
         {
-            ldsize = 0;
-            first = null;
+            throw new NotImplementedException();
         }
 
         public override void Store(string key, object value)
         {
-            ListDictionary node = new ListDictionary() { name = key, val = value };
-
-            if (first == null)
+            ListDictionary newNode = new ListDictionary();
+            if (ld_size == 0)
             {
-                first = node;
-                ldsize++;
+                first.name = key;
+                first.val = value;
+                first.next = newNode;
+                first = newNode;
             }
-            else 
+            else
             {
-                int i;
-                ListDictionary LD = first;
-                for (i = 0; i < ldsize; i++)
-                {
-                    if (LD.name == key)
-                    {
-                        LD.val = value;
-                        i = ldsize + 1;
-                    }
-                }
-                if (i < ldsize + 1) 
-                {
-                    newkey.child = node;
-                    ldsize++; 
-                }
-                
-             }
-            newkey = node;
+                last = newNode;
+                last.name = key;
+                last.val = value;
+                last.next = newNode;
+                first = newNode;
+            }
+            ld_size++;
         }
 
         public override object Lookup(string key)
         {
-            ListDictionary LU = first;
-            for (int j = 0; j < Count; j++)
-            {
-                if (LU.name == key)
-                {
-                    return LU.val;
-                }
-                LU = LU.child;
-            }
-            throw new DictionaryKeyNotFoundException(key);
+            throw new NotImplementedException();
         }
 
         public override int Count
         {
             get
             {
-                return ldsize;
+                return ld_size;
             }
         }
 
         public override IEnumerator<KeyValuePair<string, object>> GetEnumerator()
         {
             // Fill this in with something like
-            for (var cell = newkey; cell != null; cell = cell.child)
-                 yield return new KeyValuePair<string, object>(cell.name, cell.val);
-  
+            //for (var cell = start; cell != null; cell = cell.next)
+            //     yield return new KeyValuePair<string, object>(cell.Key, cell.Value);
+            // And remove this:
+            ListDictionary c = last;
+            for (var cell = last; cell != null; cell = cell.next )
+            {
+                yield return new KeyValuePair<string, object>(cell.name, cell.val);
+            }
         }
-
-
-
     }
 }

@@ -1,0 +1,14 @@
+C:\Users\Jongwoo\Desktop\eecs\EECS-214 Assignment 3\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+C:\Users\Jongwoo\Desktop\eecs\EECS-214 Assignment 3\Tests\bin\Debug\Tests.dll
+C:\Users\Jongwoo\Desktop\eecs\EECS-214 Assignment 3\Tests\bin\Debug\Tests.pdb
+C:\Users\Jongwoo\Desktop\eecs\EECS-214 Assignment 3\Tests\bin\Debug\Interpreter.exe
+C:\Users\Jongwoo\Desktop\eecs\EECS-214 Assignment 3\Tests\bin\Debug\Interpreter.pdb
+C:\Users\Jongwoo\Desktop\eecs\EECS-214 Assignment 3\Tests\obj\Debug\Tests.dll
+C:\Users\Jongwoo\Desktop\eecs\EECS-214 Assignment 3\Tests\obj\Debug\Tests.pdb
+C:\Users\Lee\Documents\GitHub\EECS395\EECS-214 Assignment 3\Tests\bin\Debug\Tests.dll
+C:\Users\Lee\Documents\GitHub\EECS395\EECS-214 Assignment 3\Tests\bin\Debug\Tests.pdb
+C:\Users\Lee\Documents\GitHub\EECS395\EECS-214 Assignment 3\Tests\bin\Debug\Interpreter.exe
+C:\Users\Lee\Documents\GitHub\EECS395\EECS-214 Assignment 3\Tests\bin\Debug\Interpreter.pdb
+C:\Users\Lee\Documents\GitHub\EECS395\EECS-214 Assignment 3\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+C:\Users\Lee\Documents\GitHub\EECS395\EECS-214 Assignment 3\Tests\obj\Debug\Tests.dll
+C:\Users\Lee\Documents\GitHub\EECS395\EECS-214 Assignment 3\Tests\obj\Debug\Tests.pdb

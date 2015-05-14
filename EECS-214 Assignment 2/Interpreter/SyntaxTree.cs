@@ -68,7 +68,7 @@ namespace Interpreter
         /// </summary>
         public override object Run(Dictionary dict)
         {
-            return Value;
+            throw new NotImplementedException();
         }
     }
 
@@ -91,7 +91,7 @@ namespace Interpreter
         /// </summary>
         public override object Run(Dictionary dict)
         {
-            return dict.Lookup(VariableName);
+            throw new NotImplementedException();
         }
     }
 
@@ -126,9 +126,7 @@ namespace Interpreter
         /// </summary>
         public override object Run(Dictionary dict)
         {
-            object st = ValueExpression.Run(dict);
-            dict.Store(VariableName, st);
-            return dict.Lookup(VariableName);
+            throw new NotImplementedException();
         }
     }
 
@@ -161,8 +159,7 @@ namespace Interpreter
         /// </summary>
         public override object Run(Dictionary dict)
         {
-            object obj = ObjectExpression.Run(dict);
-            return obj.GetMemberValue(MemberName);
+            throw new NotImplementedException();
         }
     }
 
@@ -201,10 +198,7 @@ namespace Interpreter
         /// </summary>
         public override object Run(Dictionary dict)
         {
-            object oe = ObjectExpression.Run(dict);
-            object ve = ValueExpression.Run(dict);
-            oe.SetMemberValue(MemberName, ve);
-            return ve;
+            throw new NotImplementedException();
         }
     }
 
@@ -250,14 +244,7 @@ namespace Interpreter
         /// </summary>
         public override object Run(Dictionary dict)
         {
-            object oee = ObjectExpression.Run(dict);
-            object [] intarray = new object[Arguments.Length];
-            for (int i = 0; i < Arguments.Length;i++){
-
-                intarray[i] = Arguments[i].Run(dict);
-            }
-            return oee.CallMethod(MethodName, intarray);
-
+            throw new NotImplementedException();
         }
     }
 
@@ -284,12 +271,7 @@ namespace Interpreter
         /// </summary>
         public override object Run(Dictionary dict)
         {
-            object[] charray = new object[Children.Length];
-            for (int i = 0; i < Children.Length; i++)
-            {
-                charray[i] = Children[i].Run(dict);
-            }
-            return Interpreter.GenericOperator(Label,charray);
+            throw new NotImplementedException();
         }
     }
 }
