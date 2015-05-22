@@ -14,3 +14,11 @@ C:\Users\Jongwoo\Desktop\eecs\Assignment 4\ParticleSorting\bin\Debug\ParticleSor
 C:\Users\Jongwoo\Desktop\eecs\Assignment 4\ParticleSorting\bin\Debug\OpenGL.dll
 C:\Users\Jongwoo\Desktop\eecs\Assignment 4\ParticleSorting\bin\Debug\Tao.FreeGlut.dll
 C:\Users\Jongwoo\Desktop\eecs\Assignment 4\ParticleSorting\obj\Debug\ParticleSorting.csprojResolveAssemblyReference.cache
+C:\Users\Lee\Documents\GitHub\EECS395\Assignment 4\ParticleSorting\bin\Debug\ParticleSorting.exe.config
+C:\Users\Lee\Documents\GitHub\EECS395\Assignment 4\ParticleSorting\obj\Debug\ParticleSorting.exe
+C:\Users\Lee\Documents\GitHub\EECS395\Assignment 4\ParticleSorting\obj\Debug\ParticleSorting.pdb
+C:\Users\Lee\Documents\GitHub\EECS395\Assignment 4\ParticleSorting\bin\Debug\ParticleSorting.exe
+C:\Users\Lee\Documents\GitHub\EECS395\Assignment 4\ParticleSorting\bin\Debug\ParticleSorting.pdb
+C:\Users\Lee\Documents\GitHub\EECS395\Assignment 4\ParticleSorting\bin\Debug\OpenGL.dll
+C:\Users\Lee\Documents\GitHub\EECS395\Assignment 4\ParticleSorting\bin\Debug\Tao.FreeGlut.dll
+C:\Users\Lee\Documents\GitHub\EECS395\Assignment 4\ParticleSorting\obj\Debug\ParticleSorting.csprojResolveAssemblyReference.cache
